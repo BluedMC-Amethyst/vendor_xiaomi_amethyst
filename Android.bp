@@ -16801,6 +16801,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmicamera_hal_core.so",
             ],
             shared_libs: [
+                "libui_shim",
                 "libcutils",
                 "libcamera_metadata",
                 "libcom.xiaomi.debug",
