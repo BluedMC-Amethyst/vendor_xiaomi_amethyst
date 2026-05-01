@@ -42905,6 +42905,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/pnscr-sst",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libbase",
                 "libcutils",
                 "libhardware",
