@@ -2428,6 +2428,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
+    vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
     vendor.xiaomi.hardware.quickcamera-V1-ndk \
     vendor.xiaomi.hw.touchfeature-V1-ndk \
@@ -2599,6 +2600,8 @@ PRODUCT_PACKAGES += \
     ese_weaver_thales \
     consumerir.qcom \
     displayfeature.default \
+    fingerprint.fpc_fod.default \
+    fingerprint.goodix_fod.default \
     libAncHumanVideoBokehV4 \
     libIntelligentFocus \
     libMiDispDevManager \
@@ -2645,6 +2648,7 @@ PRODUCT_PACKAGES += \
     libflatmode \
     libfpsmonitor \
     libfsalgocal \
+    libgf_hal \
     libheichal \
     libhistprocess \
     libjc_keymint-thales \

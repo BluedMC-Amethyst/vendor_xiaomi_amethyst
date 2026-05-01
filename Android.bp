@@ -30845,6 +30845,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hardware.fx.tunnel-V1-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.mlipay-V1-ndk_platform",
     owner: "xiaomi",
     strip: {
@@ -36613,6 +36638,77 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "fingerprint.fpc_fod.default",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/fingerprint.fpc_fod.default.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libpng",
+                "libhidlbase",
+                "libhidltransport",
+                "libutils",
+                "libcutils",
+                "libhwbinder",
+                "libhardware",
+                "vendor.xiaomi.hardware.fx.tunnel-V1-ndk",
+                "libbinder_ndk",
+                "libion",
+                "libQSEEComAPI",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "fingerprint.goodix_fod.default",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/fingerprint.goodix_fod.default.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libhwbinder",
+                "libhidltransport",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libion",
+                "libgf_hal",
+                "libc",
+                "libm",
+                "libdl",
+                "libc++",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libAncHumanVideoBokehV4",
     owner: "xiaomi",
     strip: {
@@ -37873,6 +37969,42 @@ cc_prebuilt_library_shared {
                 "audio.primary.volcano",
                 "libagm",
                 "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgf_hal",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libgf_hal.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "libc++",
+                "libhwbinder",
+                "libhidltransport",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libhardware",
+                "libion",
+                "libdmabufheap",
+                "libQSEEComAPI",
+                "vendor.xiaomi.hardware.fx.tunnel-V1-ndk",
+                "libbinder_ndk",
                 "libc",
                 "libm",
                 "libdl",
