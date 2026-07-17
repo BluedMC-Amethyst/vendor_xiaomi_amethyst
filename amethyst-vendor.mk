@@ -2926,7 +2926,7 @@ PRODUCT_PACKAGES += \
     uimgbamanagerlibrary \
     uimservicelibrary \
     com.android.hotwordenrollment.common.util \
-    mirilhook \
+    xiaomi-modem-common \
     qcrilhook \
     vendor.qti.ims.callcapability-V1.0-java \
     vendor.qti.ims.callcapabilityaidlservice-V1-java \
