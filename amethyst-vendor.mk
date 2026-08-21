@@ -3082,4 +3082,3 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
-    libcamera_metadata_vendor \

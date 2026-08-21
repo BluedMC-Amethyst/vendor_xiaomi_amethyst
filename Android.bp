@@ -43682,7 +43682,7 @@ cc_prebuilt_library_shared {
         "libbinder_ndk",
         "libc++",
         "libc",
-        "libcamera_metadata_vendor",
+        "libcamera_metadata",
         "libcutils",
         "libdl",
         "libfmq",
@@ -43694,33 +43694,6 @@ cc_prebuilt_library_shared {
         "libnativewindow",
         "libstagefright_foundation",
         "libutils",
-    ],
-    soc_specific: true,
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcamera_metadata_vendor",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcamera_metadata.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    stem: "libcamera_metadata",
-    shared_libs: [
-        "libc",
-        "libc++",
-        "libcutils",
-        "libdl",
-        "liblog",
-        "libm",
     ],
     soc_specific: true,
     prefer: true,
