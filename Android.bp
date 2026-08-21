@@ -43660,3 +43660,183 @@ filegroup {
         "proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql",
     ],
 }
+
+cc_prebuilt_library_shared {
+    name: "android.frameworks.cameraservice.common-V1-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.frameworks.cameraservice.common-V1-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.frameworks.cameraservice.device-V3-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.frameworks.cameraservice.device-V3-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.frameworks.cameraservice.service-V3-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.frameworks.cameraservice.service-V3-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.camera.common-V1-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.camera.common-V1-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.camera.device-V2-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.camera.device-V2-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.camera.metadata-V2-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.camera.metadata-V2-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.camera.provider-V2-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.camera.provider-V2-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera2ndk_vendor",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamera2ndk_vendor.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_metadata_vendor",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamera_metadata.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.camera.offlinecamera-V1-ndk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.camera.offlinecamera-V1-ndk.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+    prefer: true,
+}
