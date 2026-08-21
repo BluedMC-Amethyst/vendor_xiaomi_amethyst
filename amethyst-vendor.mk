@@ -3083,4 +3083,3 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libcamera_metadata_vendor \
-    vendor.qti.hardware.camera.offlinecamera-V1-ndk \
