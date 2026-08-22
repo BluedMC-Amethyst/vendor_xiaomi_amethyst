@@ -3081,4 +3081,12 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.common-V1-ndk_prebuilt \
+    android.frameworks.cameraservice.device-V3-ndk_prebuilt \
+    android.frameworks.cameraservice.service-V3-ndk_prebuilt \
+    android.hardware.camera.common-V1-ndk_prebuilt \
+    android.hardware.camera.device-V2-ndk_prebuilt \
+    android.hardware.camera.metadata-V2-ndk_prebuilt \
+    android.hardware.camera.provider-V2-ndk_prebuilt \
     libcamera2ndk_vendor \
+    vendor.qti.hardware.camera.offlinecamera-V1-ndk_prebuilt \
