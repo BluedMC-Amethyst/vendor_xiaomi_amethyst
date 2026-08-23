@@ -12183,6 +12183,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcamera_metadata",
                 "libcom.xiaomi.debug",
+                "libui-v34",
                 "libc++",
                 "libc",
                 "libm",
