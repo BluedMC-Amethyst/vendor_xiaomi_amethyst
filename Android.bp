@@ -26242,7 +26242,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "android.hardware.graphics.allocator-V2-ndk",
                 "libprocessgroup",
-                "vendor.qti.hardware.camera.postproc@1.0_vendor",
+                "vendor.qti.hardware.camera.postproc@1.0",
                 "libz",
                 "libc",
                 "libm",
@@ -26256,7 +26256,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.camera.postproc@1.0_vendor",
+    name: "vendor.qti.hardware.camera.postproc@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -26281,7 +26281,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
-    stem: "vendor.qti.hardware.camera.postproc@1.0",
 }
 
 cc_prebuilt_library_shared {
