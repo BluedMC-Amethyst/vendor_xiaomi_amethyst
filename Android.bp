@@ -26281,6 +26281,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    stem: "vendor.qti.hardware.camera.postproc@1.0",
 }
 
 cc_prebuilt_library_shared {
